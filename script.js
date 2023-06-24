@@ -47,7 +47,7 @@ function init() {
   let time = 0;
   setInterval(() => {
     time++;
-    document.querySelector(".timer").textContent = `Time: ${time}`;
+    document.querySelector(".timer").textContent = `${time}`;
   }, 1000);
 }
 
