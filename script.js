@@ -23,7 +23,7 @@ function checkTyping() {
     
     // Reset timer after 3 seconds
     setTimeout(() => {
-      timer.textContent = "Time: 0";
+      timer.textContent = "0";
       fetchRandomQuote();
       quoteInput.style.borderColor = ""; // Remove green border
       quoteInput.addEventListener("input", checkTyping);
